@@ -1,8 +1,16 @@
 
-public class HelloWorld {
+public class Greeting {
 
     public static void main(String[] args) {
             //TODO Auto - generated method stub
-            System.out.println("Hello world");
+            Greeting gr = new Greeting ();
+            gr.greetItalian();
+    }
+    public void greetEnglish (){
+            System.out.println("Hello");
+    }
+    public void greetItalian()
+    {
+    System.out.println("Ciao");
     }
 }
